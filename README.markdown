@@ -1,5 +1,5 @@
 # Existential
-The bare minimum to handle custom fine grained authorization in Rails
+The absolute minimum to handle custom fine grained authorization in Rails
 
 ### Installation
 From your rails directory
