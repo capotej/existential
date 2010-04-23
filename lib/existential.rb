@@ -1,1 +1,1 @@
-# Existential
+require 'existential/is_existential'
