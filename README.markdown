@@ -1,7 +1,7 @@
 # Existential
 Fine grained authorization can't get any simpler than this.
 
-# Example
+## Example
     # specify the thoughtful class
     class User < ActiveRecord::Base
       is_existential
@@ -30,12 +30,13 @@ Fine grained authorization can't get any simpler than this.
       end
     end    
 
-# Thanks
+## Thanks
 
 Thanks to Nick Kallen for his excellent post on this pattern, which inspired this plugin
+
 http://pivotallabs.com/users/nick/blog/articles/272-access-control-permissions-in-rails
 
 
-# License
+## License
 
 Copyright (c) 2010 Julio Capote, released under the MIT license
