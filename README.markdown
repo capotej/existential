@@ -34,7 +34,7 @@ Fine grained authorization can't get any simpler than this.
 
 Thanks to Nick Kallen for his excellent post on this pattern, which inspired this plugin
 
-http://pivotallabs.com/users/nick/blog/articles/272-access-control-permissions-in-rails
+[http://pivotallabs.com/users/nick/blog/articles/272-access-control-permissions-in-rails]
 
 
 ## License
