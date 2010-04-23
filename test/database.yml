@@ -1,0 +1,3 @@
+sqlite3:
+  adapter: sqlite3
+  database: vendor/plugins/existential/test/existential_plugin.sqlite3
