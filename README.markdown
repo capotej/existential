@@ -1,12 +1,12 @@
 # Existential
 Fine grained authorization can't get any simpler than this.
 
-## Install
+### Installation
 From your rails directory
 
     script/plugin install git://github.com/capotej/existential.git
 
-## Example Usage
+### Example Usage
 Then you can just use it like so:
     # specify the thoughtful class
     class User < ActiveRecord::Base
@@ -37,11 +37,11 @@ Then you can just use it like so:
       end
     end    
 
-## Thanks
+### Thanks
 
 Thanks to [Nick Kallen](twitter.com/nk) for his excellent [post](http://pivotallabs.com/users/nick/blog/articles/272-access-control-permissions-in-rails) on this pattern, which inspired this plugin
 
 
-## License
+### License
 
 Copyright (c) 2010 Julio Capote, released under the MIT license
