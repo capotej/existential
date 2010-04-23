@@ -1,7 +1,13 @@
 # Existential
 Fine grained authorization can't get any simpler than this.
 
-## Example
+## Install
+From your rails directory
+
+    script/plugin install git://github.com/capotej/existential.git
+
+## Example Usage
+Then you can just use it like so:
     # specify the thoughtful class
     class User < ActiveRecord::Base
       is_existential
