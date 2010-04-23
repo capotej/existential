@@ -10,6 +10,7 @@ Fine grained authorization can't get any simpler than this.
     # allow_(action)_for? methods will get the user passed in
     class Post < ActiveRecord::Base
       def allows_edit_for?(user)
+        #your crazy auth rules here, in the model where they belong
         if self.user_id == user.id
           true
         else
