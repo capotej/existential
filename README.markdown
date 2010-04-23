@@ -22,10 +22,10 @@ Fine grained authorization can't get any simpler than this.
     class PostController < ActionController::Base
       def edit
         @post = Post.find(params[:id)
-	if current_user.can?(:edit, @post)
+       	if current_user.can?(:edit, @post)
           # render the view          
-	else
-	  # raise an exception, yell at the user, whatever
+        else
+          # raise an exception, yell at the user, whatever
         end
       end
     end    
